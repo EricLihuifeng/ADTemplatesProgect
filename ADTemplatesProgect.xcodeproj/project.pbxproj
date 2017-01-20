@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2374E35C715782198F7C2BDD /* libPods-ADTemplatesProgect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2129692E5A5774AED624F1A /* libPods-ADTemplatesProgect.a */; };
+		92ECC20C1E32053200A4E8C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC2091E32053200A4E8C3 /* AppDelegate.m */; };
+		92ECC20D1E32053200A4E8C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ECC20B1E32053200A4E8C3 /* RootViewController.m */; };
 		A128898C1E31E7760073544B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A128898B1E31E7760073544B /* main.m */; };
-		A128898F1E31E7760073544B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A128898E1E31E7760073544B /* AppDelegate.m */; };
 		A12889971E31E7760073544B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12889961E31E7760073544B /* Assets.xcassets */; };
 		A128899A1E31E7760073544B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12889981E31E7760073544B /* LaunchScreen.storyboard */; };
 		A12889A51E31E7760073544B /* ADTemplatesProgectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12889A41E31E7760073544B /* ADTemplatesProgectTests.m */; };
 		A12889B01E31E7760073544B /* ADTemplatesProgectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12889AF1E31E7760073544B /* ADTemplatesProgectUITests.m */; };
-		A12889BF1E31E7B50073544B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12889BE1E31E7B50073544B /* RootViewController.m */; };
 		A12889C11E31E8180073544B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A12889C01E31E8180073544B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -38,10 +38,12 @@
 /* Begin PBXFileReference section */
 		072A9999CA26EB1F91E8F7FF /* Pods-ADTemplatesProgect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADTemplatesProgect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADTemplatesProgect/Pods-ADTemplatesProgect.debug.xcconfig"; sourceTree = "<group>"; };
 		627369ADCF2A6ADB679B5D4D /* Pods-ADTemplatesProgect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADTemplatesProgect.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADTemplatesProgect/Pods-ADTemplatesProgect.release.xcconfig"; sourceTree = "<group>"; };
+		92ECC2081E32053200A4E8C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92ECC2091E32053200A4E8C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92ECC20A1E32053200A4E8C3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		92ECC20B1E32053200A4E8C3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A12889871E31E7760073544B /* ADTemplatesProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADTemplatesProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128898B1E31E7760073544B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A128898D1E31E7760073544B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		A128898E1E31E7760073544B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		A12889961E31E7760073544B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12889991E31E7760073544B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A128899B1E31E7760073544B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,8 +53,6 @@
 		A12889AB1E31E7760073544B /* ADTemplatesProgectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADTemplatesProgectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12889AF1E31E7760073544B /* ADTemplatesProgectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADTemplatesProgectUITests.m; sourceTree = "<group>"; };
 		A12889B11E31E7760073544B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A12889BD1E31E7B50073544B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
-		A12889BE1E31E7B50073544B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 		A12889C01E31E8180073544B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		C2129692E5A5774AED624F1A /* libPods-ADTemplatesProgect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADTemplatesProgect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -212,10 +212,10 @@
 		A12889C81E31EA680073544B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				A128898D1E31E7760073544B /* AppDelegate.h */,
-				A128898E1E31E7760073544B /* AppDelegate.m */,
-				A12889BD1E31E7B50073544B /* RootViewController.h */,
-				A12889BE1E31E7B50073544B /* RootViewController.m */,
+				92ECC2081E32053200A4E8C3 /* AppDelegate.h */,
+				92ECC2091E32053200A4E8C3 /* AppDelegate.m */,
+				92ECC20A1E32053200A4E8C3 /* RootViewController.h */,
+				92ECC20B1E32053200A4E8C3 /* RootViewController.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -404,9 +404,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A128898F1E31E7760073544B /* AppDelegate.m in Sources */,
+				92ECC20C1E32053200A4E8C3 /* AppDelegate.m in Sources */,
 				A128898C1E31E7760073544B /* main.m in Sources */,
-				A12889BF1E31E7B50073544B /* RootViewController.m in Sources */,
+				92ECC20D1E32053200A4E8C3 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
