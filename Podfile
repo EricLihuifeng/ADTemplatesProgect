@@ -9,4 +9,7 @@ pod ‘ASIHTTPRequest’
 
 pod 'MBProgressHUD', '~> 1.0.0'
 
+pod 'AFNetworking', '~> 3.0'
+
+
 end
