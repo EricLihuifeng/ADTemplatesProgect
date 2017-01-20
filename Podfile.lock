@@ -1,14 +1,34 @@
 PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - MBProgressHUD (1.0.0)
+  - Reachability (3.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - ASIHTTPRequest
+  - MBProgressHUD (~> 1.0.0)
   - YYKit
 
 SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 6711a0da9c8a55896233bb5a987226e23805a98c
+PODFILE CHECKSUM: 3da598a45b63e81c1080c62125cc5d91842ee94d
 
 COCOAPODS: 1.1.1
